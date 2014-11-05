@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="72dp"
+    android:orientation="horizontal"
+    android:background="@android:color/holo_purple"
+    tools:context="com.asa.spacerlinearlayout.MainActivity$PlaceholderFragment" >
+
+	<ImageView
+		android:layout_width="72dp"
+		android:layout_height="fill_parent"
+		android:src="@android:drawable/star_big_on"
+		android:background="@android:color/transparent"/>
+	
+	<!-- If only 1 View has a layout weight then
+	 it will automatically fill the rest of the 
+	 LinearLayout in that dimension. -->
+
+    <ImageView
+        android:id="@+id/SpacerView" 
+        android:layout_width="0dp" 
+        android:layout_height="match_parent" 
+        android:layout_weight="1"/>
+    
+    <ImageButton
+        android:id="@+id/show_map" 
+        android:layout_width="72dp" 
+        android:layout_height="fill_parent" 
+        android:src="@android:drawable/ic_menu_add" 
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+         android:id="@+id/show_phone" 
+         android:layout_width="72dp" 
+         android:layout_height="fill_parent" 
+         android:src="@android:drawable/ic_menu_edit" 
+         android:background="@android:color/transparent"/>
+
+</LinearLayout>

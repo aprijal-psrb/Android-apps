@@ -1,3 +1,5 @@
+Perco Apps
+
 Apps for Android is a collection of sample applications for the
 Android platform.
 
@@ -6,6 +8,4 @@ and check the Android blog for more information:
 
 http://android-developers.blogspot.com
 
-
-
-coba
+github.com/aprijal-psrb/Android-apps
