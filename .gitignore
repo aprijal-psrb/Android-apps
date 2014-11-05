@@ -1,10 +1,13 @@
 #################
 ## Eclipse
 #################
-
+*.dex
+*.apk
+*.ap_
 *.pydevproject
 .project
 .metadata
+gen/
 bin/
 tmp/
 *.tmp
